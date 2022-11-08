@@ -1,6 +1,6 @@
 # Stress_Fibre_Orientation
-Image processing code used to generate the results in "[A microfluidic system for studying the effect of disturbed flow on endothelial cells](https://www.frontiersin.org/articles/10.3389/fbioe.2019.00081/full)", Frontiers in Bioengineering and Biotechnology, Vol. 7, apr 2019.
-Authors: F. Tovar-Lopez, P. Thurgood,  C. Gilliam, N. Nguyen, E. Pirogova, K. Khoshmanesh, and S. Baratchi
+Image processing code used to generate the results in "[A microfluidic system for studying the effect of disturbed flow on endothelial cells](https://www.frontiersin.org/articles/10.3389/fbioe.2019.00081/full)", Frontiers in Bioengineering and Biotechnology, Vol. 7, apr 2019.  
+Authors: F. Tovar-Lopez, P. Thurgood,  C. Gilliam, N. Nguyen, E. Pirogova, K. Khoshmanesh, and S. Baratchi  
 Code written by C. Gilliam (c.gilliam.1@bham.ac.uk)
 
 The code estimates and quantifies the orientation of actin stress fibres within a cell. The code is based on the algorithm outlined in W. Karlon et al, 'Measurement of Orientation and Distribution of Cellular Alignment and Cytoskeletal Organization', Annals of Biomedical Engineering, Vol. 27, pp. 712–720, 1999. Note that the code identifies the cortical fibres of the cell to remove them from the processing.
@@ -24,7 +24,7 @@ Algorithm parameters:
 | _sigma_ | 3 | Sigma value of the 2D Gaussians (assuming symmetrical Gaussians)|
 | p_local_threshold | 0.01 | significance value for local Watson U2 test |
 
-Note that these parameter names coincide with the parameters outlined in:
+Note that these parameter names coincide with the parameters outlined in:  
 W. Karlon et al, 'Measurement of Orientation and Distribution of Cellular Alignment and Cytoskeletal Organization', Annals of Biomedical Engineering, Vol. 27, pp. 712–720, 1999
 
 ## Outputs ##
