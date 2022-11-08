@@ -54,7 +54,7 @@ The code also outputs the following statistics in the excel file "Statistics.xls
 Finally the code saves the Matlab results in "Results.mat"
 
 ## Dependencies ##
-The circular statistics are computed using the "CircStat" Matlab toolbox. The toolbox is included wtih this code but should be referenced as follows:
+The circular statistics are computed using the "CircStat" Matlab toolbox. The toolbox is included wtih this code but should be referenced as follows:  
 P. Berens, CircStat: A MATLAB Toolbox for Circular Statistics. 2009 31 (2009) 21
 
 All of the graphs and images are exported from Matlab using the "export_fig" Matlab toolbox.
